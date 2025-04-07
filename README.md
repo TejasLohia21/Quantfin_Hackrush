@@ -80,21 +80,20 @@ This helps maintain portfolio breadth without compromising selection quality.
 
 ## 🧮 Mathematical Background
 
-  \[
+- **Expected Return**  
+  $$
   \mu_i = \frac{1}{N} \sum_{t=1}^{N} R_{i,t}
-  \]
+  $$
 
-- **Covariance Matrix:**
-
-  \[
+- **Covariance Matrix**  
+  $$
   \Sigma = \text{Cov}(R)
-  \]
+  $$
 
-- **Efficient Frontier Optimization:**
-
-  \[
-  \min_w \, w^\top \Sigma w \quad \text{s.t.} \quad \sum w_i = 1
-  \]
+- **Efficient Frontier Optimization**  
+  $$
+  \min_w \quad w^\top \Sigma w \quad \text{subject to} \quad \sum_i w_i = 1
+  $$
 
 - **Sharpe Maximization or Min Volatility (our choice):**
 
